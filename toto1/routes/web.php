@@ -13,6 +13,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [
+    'uses' => 'HomeController@index',
+    'as' => 'matches',
+]);
+
+Route::get('/matches13', [
+    'uses' => 'HomeController@matches13',
+    'as' => 'matches13',
+]);
+
+Route::get('/matches12', [
+    'uses' => 'HomeController@matches12',
+    'as' => 'matches12',
+]);
+
+Route::get('/matches10', [
+    'uses' => 'HomeController@matches10',
+    'as' => 'matches10',
+]);
