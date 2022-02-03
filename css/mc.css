@@ -1,0 +1,267 @@
+.mc-nav{
+    background-color: #0a4595;
+}
+
+.mc-nav a{
+    color: #ffffff !important;
+}
+
+.mc-nav a:hover{
+    color: #f79239 !important;
+}
+
+h1{
+    margin: 30px 0px 10px 0px;
+    font-size: 24px;
+    color: #007acc;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    //width: 950px;
+    width: 100%;
+    margin: 20px 0px 20px 0px;
+}
+
+td, th {
+    border: 1px solid #C8C8C8; //#8da3a4;
+    text-align: left;
+    padding: 8px;
+    font-size: 14px;
+}
+
+td {
+    color: #626567;
+    font-size: 12px;
+}
+
+
+
+tr:nth-child(even) {
+    background-color: #C8C8C8; //#8da3a4;
+}
+
+tr:nth-child(1) {
+    background-color: #C8C8C8; //#8da3a4;
+}
+
+tr:nth-child(2) {
+    background-color: #C8C8C8; //#8da3a4;
+}
+
+/* Loader */
+.loader {
+    width: 60px;
+    margin: 0px auto;
+}
+
+.loader-wheel {
+    animation: spin 1s infinite linear;
+    border: 2px solid #0a4595; //rgba(30, 30, 30, 0.5);
+    border-left: 4px solid #0a4595;
+    border-radius: 50%;
+    height: 50px;
+    margin-bottom: 10px;
+    width: 50px;
+}
+
+.loader-text {
+    color: #0a4595;
+    font-family: arial, sans-serif;
+}
+
+.loader-text:after {
+    content: 'Loading';
+    animation: load 2s linear infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes load {
+    0% {
+        content: 'Loading';
+    }
+    33% {
+        content: 'Loading.';
+    }
+    67% {
+        content: 'Loading..';
+    }
+    100% {
+        content: 'Loading...';
+    }
+}
+
+.mc-modal{
+    //background-color: #ffffff;
+    background-color: transparent;
+}
+
+.mc-modal-content{
+    margin-top: 50%;
+    text-align: center;
+    background-color: transparent;
+}
+
+/* Flashing */
+@-webkit-keyframes live {
+    from { background-color: #4BDBB8; }
+    to { background-color: #48D694; }
+}
+@-moz-keyframes live {
+    from { background-color: #4BDBB8; }
+    to { background-color:  #48D694; }
+}
+@-o-keyframes live {
+    from { background-color: #4BDBB8; }
+    to { background-color:  #48D694; }
+}
+@keyframes live {
+    from { background-color: #7ca4c4; }
+    to { background-color:  #5ea9e6; }
+}
+.live {
+    -webkit-animation: live 2s infinite; /* Safari 4+ */
+    -moz-animation:    live 2s infinite; /* Fx 5+ */
+    -o-animation:      live 2s infinite; /* Opera 12+ */
+    animation:         live 2s infinite; /* IE 10+ */
+}
+
+.ft{
+    font-weight: bold;
+}
+
+.nav-link.active {
+    color: #f79239 !important;
+}
+
+.footer{
+    min-height: 50px;
+    text-align: center;
+    background-color: #0a4595;
+    color: #ffffff;
+    margin: 0px;
+    padding: 20px;
+}
+
+.row-results{
+    min-height: 65px;
+    background-color: #0a4595;
+    color: #FFFFFF;
+}
+
+.div-block{
+    display:inline-block;
+    width: 7.69%;
+    margin: 0;
+    padding: 0;
+    float: left;
+    text-align: center;
+}
+
+.div-block-row-results{
+    width: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #FFFFFF;
+    border: 1px solid #0a4595;
+    color: #f79239;
+}
+
+.div-block-row-jackpot{
+    width: 25px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #f79239;
+    border: 1px solid #0a4595;
+}
+
+.row-jackpot{
+    min-height: 65px;
+    background-color: #f79239;
+    color: #FFFFFF;
+}
+
+.distance-top{
+    margin-top: 10px;
+}
+
+.border{
+    border: 1px solid #cccccc;
+}
+
+/*  Toto 1 table prizes*/
+.table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.table th{
+    background-color: #0a4595;
+    color: #fff;
+}
+
+
+.table td, .table th {
+    text-align: left !important;
+    padding: 8px;
+    border: 1px solid #0a4595;
+}
+
+.table tr:nth-child(even) {
+    background-color: #f5f5f5;
+}
+
+/* mobile */
+@media screen and (max-width: 800px) {
+
+    table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+    //width: 950px;
+        width: 100%;
+        margin: 20px 0px 20px 0px;
+    }
+
+    td, th {
+        border: 1px solid #C8C8C8; //#8da3a4;
+        text-align: left;
+        font-size: 8px;
+    }
+
+    td {
+        color: #626567;
+        font-size: 6px;
+    }
+
+    .mobile-hidden{
+        display: none;
+    }
+
+    .div-block-row-results{
+        width: 22px;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: #FFFFFF;
+        border: 1px solid #0a4595;
+        color: #f79239;
+    }
+
+    .div-block-row-jackpot{
+        width: 22px;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: #f79239;
+        border: 1px solid #0a4595;
+    }
+}
+
