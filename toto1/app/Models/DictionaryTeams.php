@@ -19,6 +19,7 @@ class DictionaryTeams
        'ФУЛЪМ' => 'Fulham',
        'ЛИЙДС ЮНАЙТЕД' => 'Leeds United',
        'ЛЕСТЪР' => 'Leicester City',
+       'ЛЕСТЪР СИТИ' => 'Leicester City',
        'ЛИВЪРПУЛ' => 'Liverpool',
        'МАНЧЕСТЪР СИТИ' => 'Manchester City',
        'МАН. ЮНАЙТЕД' => 'Manchester United',
@@ -31,6 +32,7 @@ class DictionaryTeams
        'У.Б.А.' => 'West Bromwich Albion',
        'УЕСТ ХЯМ' => 'West Ham United',
        'УУЛВЪРХЯМПТЪН' => 'Wolverhampton Wanderers',
+       'НОРИЧ СИТИ' => 'Norwich City',
        // CHAMPIONSHIP
        'БОРНЕМУТ' => 'AFC Bournemouth',
        'БАРНЗЛИ' => 'Barnsley',
@@ -66,9 +68,12 @@ class DictionaryTeams
        'АЙНТРАХТ ФРАНКФУРТ' => 'Eintracht Frankfurt',
        'ФРАЙБУРГ' => 'Freiburg',
        'ХЕРТА' => 'Hertha BSC',
+       'ХЕРТА' => 'Hertha Berlin',
        'ХОФЕНХАЙМ' => 'Hoffenheim',
        'ФК КЬОЛН' => 'Köln',
+       'ФК КЬОЛН' => 'FC Cologne',
        'МАЙНЦ 05' => 'Mainz 05',
+       'МАЙНЦ 05' => 'Mainz',
        'РБ ЛАЙПЦИГ' => 'RB Leipzig',
        'ШАЛКЕ 04' => 'Schalke 04',
        'ЩУТГАРТ' => 'Stuttgart',
@@ -89,6 +94,7 @@ class DictionaryTeams
        'ЮВЕНТУС' => 'Juventus',
        'ЛАЦИО' => 'Lazio',  //*
        'МИЛАН' => 'Milan',  //*
+       'МИЛАН' => 'AC Milan',
        'НАПОЛИ' => 'Napoli',
        'ПАРМА' => 'Parma',
        'РОМА' => 'Roma',
@@ -97,13 +103,18 @@ class DictionaryTeams
        'СПЕЦИЯ' => 'Spezia',
        'ТОРИНО' => 'Torino',
        'УДИНЕЗЕ' => 'Udinese',
+       'ЕМПОЛИ' => 'Empoli',
+       'ВЕНЕЦИЯ' => 'Venezia',
        // LA LIGA
        'АТЛЕТИК БИЛБАО' => 'Athletic Club',
+       'АТЛЕТИК БИЛБАО' => 'Athletic Bilbao',
        'АТЛЕТИКО МАДРИД' => 'Atletico Madrid',
        'БАРСЕЛОНА' => 'Barcelona',  //*
        'СЕЛТА' => 'Celta Vigo',
        'КАДИС' => 'Cádiz',
+       'КАДИС' => 'Cadiz',
        'АЛАВЕС' => 'Deportivo Alavés',  //*
+       'АЛАВЕС' => 'Alaves',
        'ЕЙБАР' => 'Eibar',
        'ЕЛЧЕ' => 'Elche',
        'ХЕТАФЕ' => 'Getafe',
@@ -118,8 +129,11 @@ class DictionaryTeams
        'СЕВИЛЯ' => 'Sevilla',
        'ВАЛЕНСИЯ' => 'Valencia',
        'ВИЛЯРЕАЛ' => 'Villarreal',
+       'ЕСПАНЬОЛ' => 'Espanyol',
+       'МАЙОРКА' => 'Mallorca',
        //LIGUE 1
        'АНЖЕ' => 'Angers SCO',
+       'АНЖЕ' => 'Angers',
        'БОРДО' => 'Bordeaux',
        'БРЕСТ' => 'Brest',
        'ДИЖОН' => 'Dijon',
@@ -133,6 +147,7 @@ class DictionaryTeams
        'НИЦА' => 'Nice',
        'НИМ' => 'Nîmes',
        'ЛИОН' => 'Olympique Lyonnais',
+       'ЛИОН' => 'Lyon',
        'МАРСИЛИЯ' => 'Olympique Marseille',
        'ПАРИ СЕН ЖЕРМЕН' => 'PSG',
        'РЕЙМС' => 'Reims',
@@ -145,7 +160,7 @@ class DictionaryTeams
         'БЕРОЕ СТ.ЗАГОРА' => 'Beroe',
         'БОТЕВ ПД' => 'Botev Plovdiv',	    		//*
         'БОТЕВ ВРАЦА' => 'Botev Vratsa',
-        'ЧЕРНО МОРЕ' => 'Cherno More',
+        'ЧЕРНО МОРЕ' => 'Cherno more',
         'ЦСКА 1948' => 'CSKA 1948 Sofia',
         'ЦСКА СФ' => 'CSKA Sofia',
         'ЕТЪР В.ТЪРНОВО' => 'Etar',
@@ -155,6 +170,7 @@ class DictionaryTeams
         'МОНТАНА' => 'Montana',						//*
         'СЛАВИЯ СФ' => 'Slavia Sofia',
         'ЦАРСКО СЕЛО' => 'Tsarsko selo',
+        'ЛОКОМОТИВ СФ' => 'Lokomotiv Sofia 1929',
         //УЕФА
         'ПОРТО' => 'Porto',
         'СПОРТИНГ БРАГА' => 'Sporting Braga',
