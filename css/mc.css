@@ -19,13 +19,13 @@ h1{
 table {
     font-family: arial, sans-serif;
     border-collapse: collapse;
-    //width: 950px;
+    /* width: 950px; */
     width: 100%;
     margin: 20px 0px 20px 0px;
 }
 
 td, th {
-    border: 1px solid #C8C8C8; //#8da3a4;
+    border: 1px solid #C8C8C8; /* #8da3a4; */
     text-align: left;
     padding: 8px;
     font-size: 14px;
@@ -39,15 +39,15 @@ td {
 
 
 tr:nth-child(even) {
-    background-color: #C8C8C8; //#8da3a4;
+    background-color: #C8C8C8; /* #8da3a4; */
 }
 
 tr:nth-child(1) {
-    background-color: #C8C8C8; //#8da3a4;
+    background-color: #C8C8C8; /* #8da3a4; */
 }
 
 tr:nth-child(2) {
-    background-color: #C8C8C8; //#8da3a4;
+    background-color: #C8C8C8; /* #8da3a4; */
 }
 
 /* Loader */
@@ -58,7 +58,7 @@ tr:nth-child(2) {
 
 .loader-wheel {
     animation: spin 1s infinite linear;
-    border: 2px solid #0a4595; //rgba(30, 30, 30, 0.5);
+    border: 2px solid #0a4595; /* rgba(30, 30, 30, 0.5); */
     border-left: 4px solid #0a4595;
     border-radius: 50%;
     height: 50px;
@@ -101,7 +101,7 @@ tr:nth-child(2) {
 }
 
 .mc-modal{
-    //background-color: #ffffff;
+    /* background-color: #ffffff; */
     background-color: transparent;
 }
 
@@ -227,13 +227,13 @@ tr:nth-child(2) {
     table {
         font-family: arial, sans-serif;
         border-collapse: collapse;
-    //width: 950px;
+        /* width: 950px; */
         width: 100%;
         margin: 20px 0px 20px 0px;
     }
 
     td, th {
-        border: 1px solid #C8C8C8; //#8da3a4;
+        border: 1px solid #C8C8C8; /* #8da3a4; */
         text-align: left;
         font-size: 11px;
     }
