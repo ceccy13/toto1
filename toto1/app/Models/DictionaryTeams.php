@@ -81,6 +81,7 @@ class DictionaryTeams
        'УНИОН БЕРЛИН' => 'Union Berlin',
        'ВЕРДЕР' => 'Werder Bremen',
        'ВОЛФСБУРГ' => 'Wolfsburg',
+       'БОХУМ' => 'Bochum',
        // SERIE A
        'АТАЛАНТА' => 'Atalanta',
        'БЕНЕВЕНТО' => 'Benevento',
@@ -105,6 +106,7 @@ class DictionaryTeams
        'УДИНЕЗЕ' => 'Udinese',
        'ЕМПОЛИ' => 'Empoli',
        'ВЕНЕЦИЯ' => 'Venezia',
+       'САЛЕРНИТАНА' => 'Salernitana',
        // LA LIGA
        'АТЛЕТИК БИЛБАО' => 'Athletic Club',
        'АТЛЕТИК БИЛБАО' => 'Athletic Bilbao',
@@ -131,6 +133,20 @@ class DictionaryTeams
        'ВИЛЯРЕАЛ' => 'Villarreal',
        'ЕСПАНЬОЛ' => 'Espanyol',
        'МАЙОРКА' => 'Mallorca',
+       'РАЙО ВАЛЕКАНО' => 'Rayo Vallecano',
+       //SECUNDA DEVISION
+       'ЛЕГАНЕС' => 'Leganes',
+       'МАЛАГА' => 'Malaga',
+       'ВАЛЯДОЛИД' => 'Real Valladolid',
+       'АЛМЕРИЯ' => 'Almeria',
+       'СПОРТИНГ ХИХОН' => 'Sporting Gijon',
+       'ОВИЕДО' => 'Real Oviedo',
+       'ПОНФЕРАДИНА' => 'Ponferradina',
+       'ЛУГО' => 'Lugo',
+       'БУРГОС КФ' => 'Burgos',
+       'УД ИБИСА' => 'Ibiza',
+       'УЕСКА' => 'Huesca',
+       'САРАГОСА' => 'Real Zaragoza',
        //LIGUE 1
        'АНЖЕ' => 'Angers SCO',
        'АНЖЕ' => 'Angers',
@@ -154,6 +170,7 @@ class DictionaryTeams
        'РЕН' => 'Rennes',
        'СЕНТ ЕТИЕН' => 'Saint-Etienne',
        'СТРАСБУРГ' => 'Strasbourg',
+       'КЛЕРМОНТ' => 'Clermont',
         // България
         'АРДА КЪРДЖАЛИ' => 'Arda',
         'БЕРОЕ СТ. ЗАГОРА' => 'Beroe',

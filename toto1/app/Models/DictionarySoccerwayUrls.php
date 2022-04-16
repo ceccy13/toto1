@@ -19,6 +19,7 @@ class DictionarySoccerwayUrls
             'Германия, Бундеслига' => 'https://int.soccerway.com/national/germany/bundesliga/'.$date.'/regular-season/r63141/',
             'Италия, Серия А' => 'https://int.soccerway.com/national/italy/serie-a/'.$date.'/regular-season/r63208/',
             'Испания, Примера дивисион' => 'https://int.soccerway.com/national/spain/primera-division/'.$date.'/regular-season/r63145/',
+            'Испания, Секунда дивисион' =>'https://int.soccerway.com/national/spain/segunda-division/'.$date.'/regular-season/r64292/',
             'Франция, Лига 1' => 'https://int.soccerway.com/national/france/ligue-1/'.$date.'/regular-season/r63317/',
             'България, Първа професионална лига' => 'https://int.soccerway.com/national/bulgaria/a-pfg/'.$date.'/regular-season/r63720/',
         ];
