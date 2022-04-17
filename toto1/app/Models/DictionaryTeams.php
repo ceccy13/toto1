@@ -171,6 +171,8 @@ class DictionaryTeams
        'СЕНТ ЕТИЕН' => 'Saint-Etienne',
        'СТРАСБУРГ' => 'Strasbourg',
        'КЛЕРМОНТ' => 'Clermont',
+       'ТРОА' => 'Troyes',
+       'СТРАСБУРГ' => 'Strasbourg',
         // България
         'АРДА КЪРДЖАЛИ' => 'Arda',
         'БЕРОЕ СТ. ЗАГОРА' => 'Beroe',
