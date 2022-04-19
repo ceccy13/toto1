@@ -92,8 +92,9 @@ trait Toto1GamesTrait
         (in_array(date('D'), $check_day) && date('H:i:s') > '14:00:00') ? $refresh_rate = 30 : $refresh_rate = -1; //seconds
         $url = url()->current();
 
-        return response()->view('1x2', compact('data','title'), 200)
-            ->header("Refresh", "$refresh_rate;url=$url");
+        return view('1x2',array('data' => $data, 'title' => $title));
+        /* return response()->view('1x2', compact('data','title'), 200)
+            ->header("Refresh", "$refresh_rate;url=$url"); */
     }
 
 }
