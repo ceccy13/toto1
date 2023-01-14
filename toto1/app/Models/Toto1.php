@@ -109,7 +109,7 @@ class Toto1
         $toto1_urls = DictionaryToto1Urls::get();
         foreach($toto1_urls as $toto_type => $url) {
             $html_base = file_get_html($url, false, null, 0);
-            $elements = $html_base->find('span[style="font-size:22px;"]');
+            $elements = $html_base->find('span[style="font-size:24px;"]');
             $row = 1;
             foreach ($elements as $key => $element) {
                 self::$edition[$toto_type][$row] = $element->plaintext;

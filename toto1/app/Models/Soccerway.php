@@ -14,15 +14,16 @@ class Soccerway
         $soccer_urls = DictionarySoccerwayUrls::get();
         $data = [];
         foreach($soccer_urls as $ligue => $url) {
-            $html_base = file_get_html($url, false, null, 0);
+            $html_base = file_get_html($url, false, $a, 0);
             $elements = $html_base->find('tr td');
             $row = 0;
             foreach($elements as $element) {
-                if ($element->class == 'date') {
+                $element_class = trim($element->class);
+                if ($element_class == 'date') {
                     $row++;
                 }
                 $data[$ligue][$row]['ligue'] = $ligue;
-                switch ($element->class) {
+                switch ($element_class) {
                     case 'date':
                         $string = trim($element->plaintext);
                         $data[$ligue][$row]['date'] = $string;
